@@ -1,0 +1,101 @@
+* {
+  background-color: yellow;
+  color: red;
+  
+  font-family: 'Futura Condensed PT', sans-serif;
+  font-family: 'Futura PT', sans-serif;
+  
+  margin: 0;
+  padding: 0;
+                                                
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  
+  background-color: black;
+  color: white;
+}
+
+p, li {
+  margin-bottom: 1rem;
+  line-height: 160%;
+}
+
+.movin_bar {
+  background-color: white;
+  border-color: black;
+  border-width: 0.5rem 0 0.5rem 0;
+  border-style: solid;
+  
+  margin: 1rem 0 1rem 0;
+  
+  width: 100vw;
+}
+
+.movin_text {
+  background-color: white;
+  margin: 0.5rem;
+  
+  position: relative;
+  animation: move-words 20s linear infinite;
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.banner_img {
+  width: 100vw;
+}
+
+.banner_img img {
+  width: 100%;
+}
+
+.flexin {
+  display: flex;
+}
+
+.menu {
+  margin: 1rem;
+}
+
+.intro {
+  margin: 1rem;
+  width: 30%;
+}
+
+.intro p {
+  line-height: 160%;
+}
+
+.works {
+  margin: 1rem;
+  padding-left: 1rem;
+  border-color: black;
+  border-width: 0 0 0 0.1rem;
+  border-style: solid;
+  
+  width: 50%;
+}
+
+.works img {
+  width: 100%;
+}
+
+.work {
+  margin-bottom: 5rem;
+}
+
+
+
+
+
